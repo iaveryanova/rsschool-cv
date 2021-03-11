@@ -24,3 +24,12 @@ Belarusian State University - [Chemical faculty](https://www.chemistry.bsu.by/in
 -
 
 ---
+###Languages
+**English**: Intermediate (daily correspondence)
+
+---
+###Skills
+-
+-
+-
+-
