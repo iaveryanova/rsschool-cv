@@ -23,3 +23,44 @@ Seeking a full-time position  in a company with a modern approach to development
 -   Material UI/Bootstrap/Mantine
 -   GitHub/GIT
 -   Figma/Photoshop
+
+### Code example:
+*Peak array index KATA from CODEWARS: Given an array of ints, return the index such that the sum of the elements to the right of that index equals the sum of the elements to the left of that index. If there is no such index, return -1. If there is more than one such index, return the left-most index.*
+
+```
+function peak(arr) {
+
+  for (let i = 1; i < arr.length - 1; i++) {
+    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+    if (leftSum === rightSum) {
+      return i;
+    }
+  }
+  return -1;
+}
+```
+
+### Experience:  
+*January 2023 - March 2023*  
+ **Itransition company**  
+Trainee front-end developer  
+Carrying out tasks involved in full-stack web development.  
+Technology stack: React, TypeScript/JavaScript, Node.js/Express, MySQL, Sequelize.  
+
+**My study projects**
+-   Application for searching and managing vacancies on React/JavaScript. API service Superjob was used ([https://api.superjob.ru/](https://api.superjob.ru/)).
+Github: [https://github.com/iaveryanova/jobSearchApp](https://github.com/iaveryanova/jobSearchApp)  
+Deploy: https://job-search-8803r2wjy-iaveryanova.vercel.app/
+
+-   Weather app on Angular/TypeScript is the little web app for getting current and forecast daily weather on five days by city name. It was created by using [https://openweathermap.org/](https://openweathermap.org/). HttpClientModule, FormsModule, Angular Material UI are used.  
+Github: [https://github.com/iaveryanova/openWeatherAngular](https://github.com/iaveryanova/openWeatherAngular)  
+Deploy: [https://iaveryanova.github.io/openWeatherAngular/](https://iaveryanova.github.io/openWeatherAngular/)
+
+-   FilmSearch app on Angular/TypeScript queries the OMDb API in order to retrieve information about requested movies. Using HttpClientModule, MatPaginatorModule, FormsModule.  
+Github: [https://github.com/iaveryanova/filmSearchAngular](https://github.com/iaveryanova/filmSearchAngular)  
+Deploy: [https://iaveryanova.github.io/filmSearchAngular/](https://iaveryanova.github.io/filmSearchAngular/)
+
+-   UserList app on React/TypeScript. An example CRUD application using React, Redux, React Hooks, API request with axios.  
+Github: [https://github.com/iaveryanova/userListReact](https://github.com/iaveryanova/userListReact)  
+Deploy: [https://iaveryanova.github.io/userListReact/](https://iaveryanova.github.io/userListReact/)
