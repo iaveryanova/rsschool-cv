@@ -64,3 +64,15 @@ Deploy: [https://iaveryanova.github.io/filmSearchAngular/](https://iaveryanova.g
 -   UserList app on React/TypeScript. An example CRUD application using React, Redux, React Hooks, API request with axios.  
 Github: [https://github.com/iaveryanova/userListReact](https://github.com/iaveryanova/userListReact)  
 Deploy: [https://iaveryanova.github.io/userListReact/](https://iaveryanova.github.io/userListReact/)
+
+### Education:
+**Belarusian State University  (2013 - 2017)**  
+*Faculty of Chemistry*  
+Pharmaceutical chemist  
+#### Courses:  
+**IT Step Academy (2021 - 2022)**  
+*Front-end developer*  
+
+### Languages:
+- Russian - Native
+- English - Intermediate
