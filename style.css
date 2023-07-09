@@ -75,3 +75,38 @@ main p {
 .position {
   font-weight: bold;
 }
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact ul {
+  list-style-type:none;
+  padding-left: 20px;
+}
+
+.contact li {
+  display: flex;
+  align-items: center;
+}
+
+.contact li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.languages ul {
+  list-style-type: circle;
+}
+
+.experience ul {
+  list-style-type: circle;
+  margin-top: 0px;
+}
+
+.experience li p{
+  margin: 0px;
+}
+
+
