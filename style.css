@@ -109,4 +109,15 @@ main p {
   margin: 0px;
 }
 
+footer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img {
+  height: 30px;
+  width: auto;
+}
 
